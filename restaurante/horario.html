@@ -1,3 +1,91 @@
-<!--Añade el horario del restaurante, el horario tiene que reflejar los 7 días de la semana,
-mañana y tarde. Además, deberás indicar el día de descanso del personal.
--->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Angie">  
+    <meta name="description" content="jornada laboral semanal del restaurante Bakery">
+    <meta name="keywords" content="restaurante, horario, jornada laboral, semanal">
+    <title>Horario del restaurante</title>
+    <link rel="icon" type="cafe_logo" href="restaurante/img/bakery.webp">
+</head>
+<body>
+
+<header>
+    <h1>Jornada laboral</h1>
+</header>
+
+<nav>
+    <a href="index.html"> volver atras </a>
+</nav>
+
+<main>
+    <br>
+    <section>
+        <h3>Jornada laboral semanal</h3>
+        <br>
+        <table border="1">
+            <!-- Título o descripción de la tabla -->
+            <caption>horario</caption>
+
+            <!-- Encabezado de la tabla -->
+            <thead>
+                <tr>
+                <th>TURNO</th>        
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+                <th>Sabado</th>
+                <th>Domingo</th>
+                </tr>
+            </thead>
+
+            <!-- Cuerpo de la tabla con los datos -->
+            <tbody>
+                <tr>
+                <th> Mañana </th>
+                <td> 9:00 - 14:00 </td>
+                <td> 9:00 - 14:00 </td>
+                <td rowspan="2" > Descanso </td>
+                <td> 9:00 - 14:00 </td>
+                <td> 9:00 - 14:00 </td>
+                <td> 9:00 - 14:00 </td>
+                <td rowspan="2" > Descanso </td>
+                </tr>
+
+                <tr>
+                    <th > 14:00 - 15:30 </th>
+                    <th colspan="8">DESCANSO</th>
+                <tr>
+
+                <tr>
+                <th> Tarde </th>
+                <td> 15:30 - 19:30 </td>
+                <td> 15:30 - 19:30 </td>
+                <td> 15:30 - 19:30 </td>
+                <td> 15:30 - 19:30 </td>
+                <td> 15:30 - 19:30 </td>
+                </tr>
+                
+            </tbody>
+
+            <!-- Pie de la tabla (resumen o totales) -->
+            <tfoot>
+                <tr>
+                <th colspan="8"> SALIDA </th>
+                </tr>
+            </tfoot>
+        </table>
+
+    </section>
+    <br>
+
+</main>
+
+<footer>
+    footer
+</footer>
+
+</body>
+</html>
